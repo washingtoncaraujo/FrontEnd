@@ -9,18 +9,27 @@
 </head>
 
 <body>
+<form>
+  <input type="search"name = "Pesquisa:" placeholder="Pesquise aqui">
+  <input type = "submit" value="Ir">
+</form>  
 <p>
   <a href="paginas/contato.html" 
   title="Vamos para os contatos :D">
-  <img src="fig1.jpeg" alt="Foto de comida"> Contato</a>
-  <a href download="fig1.jpeg"> baixar </a>  
-  <a href="mailto:email@gmail.com"> email</a>
+ <img src="fig1.jpeg" alt="Foto de comida"> Contato</a>
+ <a href download="fig1.jpeg"> baixar </a> 
+ <a href="mailto:email@gmail.com"> email</a> 
+
 </p>
-  
   <h1>Sacolão OnLine</h1>
   <p>Venha para o <strong>Sacolão OnLine</strong>, aqui o seu <em>dinheiro</em> vale mais.</p>
   <h2>Produtos</h2>
-  <p><u>Verduras</u></p>
+  <nav>
+      <a href = "#Verduras"> Verduras</a>
+      <a href = "#Frutas"> Frutas</a>
+      <a href = "#Legumes"> Legumes</a>
+  </nav>
+  <p id="Verduras"><u>Verduras</u></p>
   <ul>
     <li>Couve R$ 2.00 kg</li> 
     <li>Agrião R$ 3.00 kg</li>
@@ -28,7 +37,7 @@
     <li>Brócolis R$ 3.25 kg</li>
     <li>Espinafre R$ 4.10 kg</li>
   </ul>
-  <p><u>Frutas</u></p>
+  <p id="Frutas"><u>Frutas</u></p>
   <ul>
     <li>Banana R$ 1.99 Kg</li>
     <li>Abacaxi R$ 6.65 1Un</li>
@@ -36,7 +45,7 @@
     <li>Abacate R$ 8.49 Kg</li>
     <li>Cereja R$ 20.00 </li>
   </ul>
-  <p><u>Legumes</u></p>
+  <p id="Legumes"><u>Legumes</u></p>
   <ul>
     <li>Alho R$ 5.25 kg</li>
     <li>abóbora R$ 3,50 Kg</li>
@@ -69,5 +78,9 @@
   <script src="script.js"></script>
   <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
 </body>
+  
+<footer>
+ Todos os Direitos Reservados © 2022 Joao Marcelo, Washington, Mateus Gabriel
+</footer>
 
 </html>
