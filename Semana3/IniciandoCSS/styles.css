@@ -1,0 +1,21 @@
+h1{
+    color:red;
+}
+/*<!--Estiliza multiplos seletores-->*/
+p, li{ 
+    color:green;
+}
+/*<!--Desabilita estilo padrão-->*/
+li{  
+    list-style-type:none
+}
+/*Estiliza uma classe que foi definida no documento html*/
+.especial{
+    color: orange;
+    font-weight: bold;
+}
+/*seletor chamado combinador descendente, a qual simplesmente,
+ assume a forma de um espaço entre dois outros seletores*/
+li em{
+    color: rebeccapurple;
+}
