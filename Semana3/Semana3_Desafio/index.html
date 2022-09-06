@@ -6,18 +6,11 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-<!--
-  <style>
-p{
-  color: green;
-}
-ul{color: red;}    
-  </style>
--->
+
 </head>
 
 <body>
-  
+<!-- <body bgcolor="#EFC88B"> Para mudar a cor de fundo da página -->
 <form>
   <input type="search"name = "Pesquisa:" placeholder="Pesquise aqui">
   <input type = "submit" value="Ir">
@@ -31,15 +24,15 @@ ul{color: red;}
 
 </p>
   <h1 style="color:red;">Sacolão OnLine</h1>
-  <p>Venha para o <strong>Sacolão OnLine</strong>, aqui o seu <em>dinheiro</em> vale mais.</p>
+  <p Venha para o <strong>Sacolão OnLine</strong>, aqui o seu <em>dinheiro</em> vale mais.</p>
   <h2 style="color:blue;">Produtos</h2>
   <nav>
       <a href = "#Verduras"> Verduras</a>
       <a href = "#Frutas"> Frutas</a>
       <a href = "#Legumes"> Legumes</a>
   </nav>
-  <p id="Verduras"><u>Verduras</u></p>
-  <ul>
+  <p><u>Verduras</u></p>
+  <ul class="listas">
     <li>Couve R$ 2.00 kg</li> 
     <li>Agrião R$ 3.00 kg</li>
     <li>Alface R$ 1.50 Un</li>
@@ -64,15 +57,16 @@ ul{color: red;}
   </ul>
   <h2>Instruções de compra:</h2>
   <ol>
-    <li>Na página do produto, selecione <strong>Compre agora</strong></li>
-    <li>Selecione a quantidade do produto desejado</li>
-    <li>Selecione <i>Comprar agora</i></li>
+    <li class="SelCom">Na página do produto, selecione <strong>Compre agora</strong></li>
+    <li class="SelCom">Selecione a quantidade do produto desejado</li>
+    <li class="SelCom" >Selecione <i>Comprar agora</i></li>
+    <li class="SelCom">Selecione <i>Comprar agora</i></li>
     <li class="SelCom">Selecione a opção informar endereço e a forma de envio</li>
-    <li>Selecione a opção de pagamento preferida e Fazer pedido.</li>
+    <li class="SelCom">Selecione a opção de pagamento preferida e Fazer pedido.</li>
     <ul>
       <li id="OuCom">Outra forma de compra:</li>
-      <li>Se preferir mande uma lista de compra por whatsapp e enviaremos suas compras</li>
-      <li>Ou separamos suas compras e esperamos sua vinda até nossa loja</li>
+      <li id="OuCom">Se preferir mande uma lista de compra por whatsapp e enviaremos suas compras</li>
+      <li id="OuCom">Ou separamos suas compras e esperamos sua vinda até nossa loja</li>
     </ul>
   </ol>
   
@@ -87,11 +81,10 @@ ul{color: red;}
   <script src="script.js"></script>
   <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
 
-<a>
+
 <footer>
- Todos os Direitos Reservados © 2022 Joao Marcelo, Washington, Mateus Gabriel
+<a id="RodaPe">  Todos os Direitos Reservados © 2022 Joao Marcelo, Washington, Mateus Gabriel </a>
 </footer>
-</a>
   
 </body>  
 
