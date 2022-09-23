@@ -1,0 +1,38 @@
+h1{
+    display: flex;
+    height: 50px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /*background-color: blue;*/
+
+
+}
+.bloco{
+    display: flex;
+    width: auto;
+    height: 550px;
+   /*background-color: maroon;*/
+}
+.bloco p{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+#clock{
+    display: flex;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    padding: 0px;
+    border: 10px;
+    /*background-color: aqua;*/
+
+}
+footer{
+    display: fleex;
+    width: auto;
+    height: auto;
+    /*background-color: blue;*/
+}
